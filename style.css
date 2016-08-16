@@ -3,26 +3,43 @@
     src: url(BrandyNicoleEaster.ttf);
 }
 
+@font-face {
+    font-family: brandynicoleeastertwo;
+    src: url(brandynicoleeastertwo.ttf);
+}
+
 body {
     font-family: BrandyNicoleEaster;
     align-content: center;
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
+    font-family: brandynicoleeastertwo;
     list-style: none;
     padding: 10px;
     align-content: center;
     white-space: nowrap;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 li {
+    font-size: 38px;
     padding: 20px 10px 20px 10px;
     align-content: center;
     display: inline-block;
 }
 
+
 h1 {
+    color: purple;
+    font-size: 58px;
+    font-family: brandynicoleeastertwo;
     max-width: 750px;
     padding-bottom: 100px;
     text-align: center;
@@ -56,7 +73,6 @@ h1 {
 }
 
 #clothes a {
-    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,9 +100,14 @@ h1 {
 }
 
 #finalLine {
+    text-decoration: none;
     font-size: 12px;
     text-align: center;
     padding-top: 100px;
+}
+
+#about {
+    text-align: center;
 }
 
 
