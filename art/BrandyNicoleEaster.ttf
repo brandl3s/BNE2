@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <meta charset="utf-8">
+    <title>brandy nicole easter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<!-- Enable fullscreen Mode -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <link rel="stylesheet" href="../../style.css">
+    
+<!-- Add  home icon -->
+    </head>
+       
+    <body>
+     <nav>
+         <ul>
+            <li><a href="../../art/">art</a></li>
+            <li><a href="../../clothes">clothes</a></li>
+            <li><a href="../../design/">design</a></li>
+            <li><a href="../../repair/">repair</a></li>
+            <li><a href="../../learn/">learn</a></li>
+            <li><a href="../../contact/">contact</a></li>
+        </ul>
+    </nav>
+        
+        <h1>brandy nicole easter</h1>
+
+
+            <section id="art">
+
+<!-- This is where images will live -->
+                    <div class="masonry">
+                       <div class="item"></div>
+                       <div class="item"></div>
+                    </div>
+                    
+                <p class="text" id="finalLine">
+                Made by brandy nicole easter.
+              </p>
+            </section>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+        <script src="../../app.js"></script>
+    </body>
+</html>

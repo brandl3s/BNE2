@@ -9,6 +9,7 @@
 }
 
 body {
+    background-color: rgba(195,226,237,0.16);
     font-family: BrandyNicoleEaster;
     align-content: center;
     padding: 20px;
@@ -29,7 +30,7 @@ ul {
 }
 
 li {
-    font-size: 38px;
+    font-size: 40px;
     padding: 20px 10px 20px 10px;
     align-content: center;
     display: inline-block;
@@ -37,7 +38,7 @@ li {
 
 
 h1 {
-    color: purple;
+    color: navy;
     font-size: 58px;
     font-family: brandynicoleeastertwo;
     max-width: 750px;
@@ -60,31 +61,48 @@ h1 {
     text-align: center;
 }
 
-#clothes li img {
+#clothesPage li img {
     max-width: 100px;
     border-radius: 200px;
     padding: 20px;
 }
 
-#clothes li {
+#clothesPage li {
     padding: 20px 10px 20px 10px;
     align-content: center;
     padding-left: 10px;
 }
 
-#clothes a {
+#clothesPage a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:navy;
+    color: 000066;
 }
 
 .masonry { /* Masonry container */
+    column-count: 3;
+    column-gap: none;
+    column-width: 100%;
+    margin: none;
+}
+
+.item { /* Masonry bricks or child elements */
+    display: inline-block;
+    max-height: none;
+}
+
+.item image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.masonry-two { /* Masonry container */
     column-count: 4;
     column-gap: 1em;
 }
 
-.item { /* Masonry bricks or child elements */
+.item-two { /* Masonry bricks or child elements */
     background-color: #eee;
     display: inline-block;
     margin: 0 0 1em;
@@ -94,23 +112,61 @@ h1 {
 .contactDetails {
     color: red;
     text-decoration: none;
-    margin: 60px;
+    margin: 46px;
+    font-size: 32px;
+}
+
+#contactPage {
     text-align: center;
-    font-size: 36px;
 }
 
 #finalLine {
+    color: rgba(175,107,223,1);
     text-decoration: none;
     font-size: 12px;
     text-align: center;
     padding-top: 100px;
 }
 
-#about {
+#aboutPage {
+    color: rgba(223,107,183,1);
+    text-align: center;
+    width: 100%;
+}
+
+#designPage {
     text-align: center;
 }
 
+#art a {
+    color: red;
+}
 
-#design {
-    text-align: center;
+#clothes a {
+    color: rgba(170,65,214,0.99);
+}
+
+#design a {
+    color: rgba(97,138,40,0.99);
+}
+
+#repair a {
+    color: rgba(241,89,148,0.99);
+}
+
+#learn a {
+    color: rgba(212,209,17,0.99);
+}
+
+#contact a {
+    color: rgba(40,189,147,0.99);
+}
+
+#collectionPage {
+    column-count: 3;
+}
+
+.collectionLink a{
+    font-size: 20px;
+    color: navy;
 }
