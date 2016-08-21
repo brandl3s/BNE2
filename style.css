@@ -12,7 +12,6 @@ body {
     background-color: rgba(195,226,237,0.16);
     font-family: BrandyNicoleEaster;
     align-content: center;
-    padding: 20px;
 }
 
 a {
@@ -22,7 +21,6 @@ a {
 ul {
     font-family: brandynicoleeastertwo;
     list-style: none;
-    padding: 10px;
     align-content: center;
     white-space: nowrap;
     max-width: 800px;
@@ -32,7 +30,6 @@ ul {
 li {
     font-size: 40px;
     padding: 20px 10px 20px 10px;
-    align-content: center;
     display: inline-block;
 }
 
@@ -68,9 +65,8 @@ h1 {
 }
 
 #clothesPage li {
-    padding: 20px 10px 20px 10px;
-    align-content: center;
-    padding-left: 10px;
+    padding: 20px 20px 20px 40px;
+
 }
 
 #clothesPage a {
@@ -106,7 +102,7 @@ h1 {
     background-color: #eee;
     display: inline-block;
     margin: 0 0 1em;
-    width: 100%;
+    size: 100px;
 }
 
 .contactDetails {
@@ -163,7 +159,7 @@ h1 {
 }
 
 #collectionPage {
-    column-count: 3;
+
 }
 
 .collectionLink a{
