@@ -18,6 +18,12 @@ a {
     text-decoration: none;
 }
 
+/*this hover link doesn't seem to actually do anything */
+
+a:hover { color: pink; }
+
+a:active { color: red; }
+
 ul {
     font-family: brandynicoleeastertwo;
     list-style: none;
