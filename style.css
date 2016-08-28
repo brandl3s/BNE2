@@ -14,29 +14,19 @@ body {
     align-content: center;
 }
 
-a {
-    text-decoration: none;
+p {
+    text-align: center;
+    color:navy;
 }
 
-/*this hover link doesn't seem to actually do anything */
-
-a:hover { color: pink; }
-
-a:active { color: red; }
-
-ul {
-    font-family: brandynicoleeastertwo;
-    list-style: none;
-    align-content: center;
-    white-space: nowrap;
-    max-width: 800px;
-    margin: 0 auto;
+a {
+    text-decoration: none;
 }
 
 li {
     font-size: 40px;
     padding: 20px 10px 20px 10px;
-    display: inline-block;
+    display: inline;
 }
 
 
@@ -46,11 +36,12 @@ h1 {
     font-family: brandynicoleeastertwo;
     max-width: 750px;
     padding-bottom: 100px;
+    padding-top: 50px;
     text-align: center;
     margin: 0 auto;
 }
 
-.constructionHeading img {
+img.constructionHeading {
     width: 100%;
 }
 
@@ -58,28 +49,6 @@ h1 {
 
 #UC {
     text-align: center;
-}
-
-#email {
-    text-align: center;
-}
-
-#clothesPage li img {
-    max-width: 100px;
-    border-radius: 200px;
-    padding: 20px;
-}
-
-#clothesPage li {
-    padding: 20px 20px 20px 40px;
-
-}
-
-#clothesPage a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: 000066;
 }
 
 .masonry { /* Masonry container */
@@ -94,7 +63,7 @@ h1 {
     max-height: none;
 }
 
-.item image {
+img.item {
     max-width: 100%;
     max-height: 100%;
 }
@@ -107,22 +76,98 @@ h1 {
 .item-two { /* Masonry bricks or child elements */
     background-color: #eee;
     display: inline-block;
-    margin: 0 0 1em;
+    margin: 0 auto;
     size: 100px;
 }
 
-.contactDetails {
+.masonry-three { /* Masonry container */
+    column-count: 5;
+    column-gap: 2em;
+}
+
+section#the-cut-out-cat {
+    align-content: center;
+}
+/* Contact Page */
+
+.contact-details {
     color: red;
     text-decoration: none;
     margin: 46px;
     font-size: 32px;
 }
 
-#contactPage {
+#contact-page {
     text-align: center;
 }
 
-#finalLine {
+/* Home Page - Landing Page */
+
+#about-page {
+    color: rgba(223,107,183,1);
+    text-align: center;
+    width: 100%;
+}
+
+/* Collection Page Decorations*/
+
+#clothes-page {
+    height: 84px;
+}
+
+.collections {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+.clothes-page li img {
+    max-width: 100px;
+    border-radius: 200px;
+    padding: 20px;
+}
+
+.clothes-page li {
+    padding: 20px 20px 20px 40px;
+    font-family: brandynicoleeastertwo;
+    font-size: 20px;
+    align-content: center;
+}
+
+.clothes-page ul {
+    margin: 0 auto;
+    align-content: center;
+}
+
+}
+.clothes-page a {
+    align-items: center;
+    color: 000066;
+}
+
+.collection-link {
+    display: inline-block;
+    text-align: center
+}
+
+.collection-link div {
+    color:navy;
+}
+
+.over {
+    color: rgb(51, 204, 255) !important;
+}
+
+.pointer { 
+   cursor: pointer;
+}
+
+#website-link a:hover {
+    color: rgb(51, 204, 255) !important;
+}
+
+/* Made By Me */
+
+#final-line {
     color: rgba(175,107,223,1);
     text-decoration: none;
     font-size: 12px;
@@ -130,45 +175,81 @@ h1 {
     padding-top: 100px;
 }
 
-#aboutPage {
-    color: rgba(223,107,183,1);
-    text-align: center;
-    width: 100%;
-}
 
-#designPage {
+#email {
     text-align: center;
 }
 
-#art a {
+/*Nav*/
+
+#art a{
     color: red;
 }
 
-#clothes a {
+#art a:hover { 
+    color: rgb(255, 153, 0); 
+}
+
+
+#clothes a{
     color: rgba(170,65,214,0.99);
 }
 
-#design a {
+#clothes a:hover { 
+    color: rgb(51, 204, 255); 
+}
+
+
+#design a{
     color: rgba(97,138,40,0.99);
+}
+
+#design a:hover { 
+    color: pink; 
+}
+
+#design a:hover { 
+    color: rgb(230, 230, 0); 
 }
 
 #repair a {
     color: rgba(241,89,148,0.99);
 }
 
-#learn a {
+#repair a:hover {
+    color: rgb(204, 51, 255);
+}
+
+#learn a{
     color: rgba(212,209,17,0.99);
 }
 
-#contact a {
+#learn a:hover { 
+    color: rgb(26, 26, 255); 
+}
+
+
+#contact a{
     color: rgba(40,189,147,0.99);
 }
 
-#collectionPage {
-
+#contact a:hover { 
+    color: rgb(255, 153, 204); 
 }
 
-.collectionLink a{
-    font-size: 20px;
-    color: navy;
+#menu-outer {
+    height: 84px;
+}
+
+.nav {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+ul.menu  {
+    font-family: brandynicoleeastertwo;
+    list-style: none;
+    align-content: center;
+    padding: 20px 0px 20px 0px;
+    margin: 0 auto;
 }
