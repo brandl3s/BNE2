@@ -127,26 +127,23 @@ section#the-cut-out-cat {
 }
 
 .clothes-page li {
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 20px 20px;
     font-family: brandynicoleeastertwo;
     font-size: 20px;
-    align-content: center;
 }
 
 .clothes-page ul {
     margin: 0 auto;
-    align-content: center;
 }
 
-}
-.clothes-page a {
-    align-items: center;
-    color: 000066;
+ul.collections {
+    padding: 0px;
+    align-content: center;
+    text-align: center;
 }
 
 .collection-link {
     display: inline-block;
-    text-align: center
 }
 
 .collection-link div {
