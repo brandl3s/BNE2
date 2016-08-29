@@ -33,7 +33,7 @@ collectionLinkCatReclaimer.addEventListener('mouseout', function() {
 var collectionLinkTheCutOutCat = document.getElementById('collection-link-the-cut-out-cat');
 
 collectionLinkTheCutOutCat.addEventListener('click', function() {
-	window.location = '/clothes/the-cut-out-cat/';
+	window.location = '../clothes/the-cut-out-cat/';
 });
 
 collectionLinkTheCutOutCat.addEventListener('mouseover', function() {
@@ -51,7 +51,7 @@ collectionLinkTheCutOutCat.addEventListener('mouseout', function() {
 var collectionLinkTheUnforgiver = document.getElementById('collection-link-the-unforgiver');
 
 collectionLinkTheUnforgiver.addEventListener('click', function() {
-	window.location = '/clothes/the-unforgiver/';
+	window.location = '../clothes/the-unforgiver/';
 });
 
 collectionLinkTheUnforgiver.addEventListener('mouseover', function() {
@@ -69,7 +69,7 @@ collectionLinkTheUnforgiver.addEventListener('mouseout', function() {
 var collectionLinkPepperRabbit = document.getElementById('collection-link-pepper-rabbit');
 
 collectionLinkPepperRabbit.addEventListener('click', function() {
-	window.location = '/clothes/pepper-rabbit/';
+	window.location = '../clothes/pepper-rabbit/';
 });
 
 collectionLinkPepperRabbit.addEventListener('mouseover', function() {
@@ -87,7 +87,7 @@ collectionLinkPepperRabbit.addEventListener('mouseout', function() {
 var collectionLinkArchive = document.getElementById('collection-link-archive');
 
 collectionLinkArchive.addEventListener('click', function() {
-	window.location = '/clothes/archive/';
+	window.location = '../clothes/archive/';
 });
 
 collectionLinkArchive.addEventListener('mouseover', function() {
