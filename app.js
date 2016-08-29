@@ -4,7 +4,7 @@ console.log("app.js ready to higgy jiggy");
 var collectionLinkCatReclaimer = document.getElementById('collection-link-the-cat-reclaimer');
 
 collectionLinkCatReclaimer.addEventListener('click', function() {
-	window.location = '/clothes/the-cat-reclaimer/';
+	window.location = '../clothes/the-cat-reclaimer/';
 });
 
 collectionLinkCatReclaimer.addEventListener('mouseover', function() {
