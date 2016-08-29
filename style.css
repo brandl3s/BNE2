@@ -3,33 +3,45 @@
     src: url(BrandyNicoleEaster.ttf);
 }
 
-body {
-    font-family: BrandyNicoleEaster;
-    align-content: center;
-    padding: 20px;
+@font-face {
+    font-family: brandynicoleeastertwo;
+    src: url(brandynicoleeastertwo.ttf);
 }
 
-ul {
-    list-style: none;
-    padding: 10px;
+body {
+    background-color: rgba(195,226,237,0.16);
+    font-family: BrandyNicoleEaster;
     align-content: center;
-    white-space: nowrap;
+}
+
+p {
+    text-align: center;
+    color:navy;
+}
+
+a {
+    text-decoration: none;
 }
 
 li {
-    padding: 20px 10px 20px 10px;
-    align-content: center;
-    display: inline-block;
+    font-size: 40px;
+    padding: 20px 10px 0px 10px;
+    display: inline;
+    text-align: center;
 }
 
+
 h1 {
+    color: navy;
+    font-size: 58px;
+    font-family: brandynicoleeastertwo;
     max-width: 750px;
     padding-bottom: 100px;
     text-align: center;
     margin: 0 auto;
 }
 
-.constructionHeading img {
+img.constructionHeading {
     width: 100%;
 }
 
@@ -39,57 +51,207 @@ h1 {
     text-align: center;
 }
 
-#email {
+.masonry { /* Masonry container */
+    column-count: 3;
+    column-gap: none;
+    column-width: 100%;
+    margin: none;
+}
+
+.item { /* Masonry bricks or child elements */
+    display: inline-block;
+    max-height: none;
+}
+
+img.item {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.masonry-two { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+}
+
+.item-two { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 auto;
+    size: 100px;
+}
+
+.masonry-three { /* Masonry container */
+    column-count: 5;
+    column-gap: 2em;
+}
+
+section#the-cut-out-cat {
+    align-content: center;
+}
+/* Contact Page */
+
+.contact-details {
+    color: red;
+    text-decoration: none;
+    margin: 46px;
+    font-size: 32px;
+}
+
+#contact-page {
     text-align: center;
 }
 
-#clothes li img {
+/* Home Page - Landing Page */
+
+#about-page {
+    color: rgba(223,107,183,1);
+    text-align: center;
+    width: 100%;
+}
+
+/* Collection Page Decorations*/
+
+#clothes-page {
+    height: 84px;
+}
+
+.collections {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+.clothes-page li img {
     max-width: 100px;
     border-radius: 200px;
     padding: 20px;
 }
 
-#clothes li {
-    padding: 20px 10px 20px 10px;
+.clothes-page li {
+    padding: 20px 20px 20px 40px;
+    font-family: brandynicoleeastertwo;
+    font-size: 20px;
     align-content: center;
-    padding-left: 10px;
 }
 
-#clothes a {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
+.clothes-page ul {
+    margin: 0 auto;
+    align-content: center;
+}
+
+}
+.clothes-page a {
     align-items: center;
+    color: 000066;
+}
+
+.collection-link {
+    display: inline-block;
+    text-align: center
+}
+
+.collection-link div {
     color:navy;
 }
 
-.masonry { /* Masonry container */
-    column-count: 4;
-    column-gap: 1em;
+.over {
+    color: rgb(51, 204, 255) !important;
 }
 
-.item { /* Masonry bricks or child elements */
-    background-color: #eee;
-    display: inline-block;
-    margin: 0 0 1em;
-    width: 100%;
+.pointer { 
+   cursor: pointer;
 }
 
-.contactDetails {
-    color: red;
+#website-link a:hover {
+    color: rgb(51, 204, 255) !important;
+}
+
+/* Made By Me */
+
+#final-line {
+    color: rgba(175,107,223,1);
     text-decoration: none;
-    margin: 60px;
-    text-align: center;
-    font-size: 36px;
-}
-
-#finalLine {
     font-size: 12px;
     text-align: center;
     padding-top: 100px;
 }
 
 
-#design {
+#email {
     text-align: center;
+}
+
+/*Nav*/
+
+#art a{
+    color: red;
+}
+
+#art a:hover { 
+    color: rgb(255, 153, 0); 
+}
+
+
+#clothes a{
+    color: rgba(170,65,214,0.99);
+}
+
+#clothes a:hover { 
+    color: rgb(51, 204, 255); 
+}
+
+
+#design a{
+    color: rgba(97,138,40,0.99);
+}
+
+#design a:hover { 
+    color: pink; 
+}
+
+#design a:hover { 
+    color: rgb(230, 230, 0); 
+}
+
+#repair a {
+    color: rgba(241,89,148,0.99);
+}
+
+#repair a:hover {
+    color: rgb(204, 51, 255);
+}
+
+#learn a{
+    color: rgba(212,209,17,0.99);
+}
+
+#learn a:hover { 
+    color: rgb(26, 26, 255); 
+}
+
+
+#contact a{
+    color: rgba(40,189,147,0.99);
+}
+
+#contact a:hover { 
+    color: rgb(255, 153, 204); 
+}
+
+#menu-outer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    min-height: 84px;
+}
+
+.nav {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+ul.menu  {
+    font-family: brandynicoleeastertwo;
+    list-style: none;
+    align-content: center;
+    text-align: center;
+    padding: 0px;
 }
