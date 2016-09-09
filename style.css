@@ -15,14 +15,10 @@ body {
     align-content: center;
 }
 
-p {
-    text-align: center;
-    color:navy;
-}
+p { text-align: center;
+    color:navy;}
 
-a {
-    text-decoration: none;
-}
+a { text-decoration: none; }
 
 li {
     font-size: 40px;
@@ -181,7 +177,7 @@ ul.collections {
     color:navy;
 }
 
-.over {
+/*.over {
     color: rgb(51, 204, 255) !important;
 }
 
@@ -191,7 +187,7 @@ ul.collections {
 
 #website-link a:hover {
     color: rgb(51, 204, 255) !important;
-}
+}*/
 
 /* Made By Me */
 
@@ -282,4 +278,13 @@ ul.menu  {
     align-content: center;
     text-align: center;
     padding: 0px;
+}
+
+.collection-link:hover .collection-title {
+    color: rgb(51, 204, 255)
+
+}
+
+.collection-link {
+    cursor: pointer;
 }
