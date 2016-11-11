@@ -16,7 +16,9 @@ body {
 }
 
 p { text-align: center;
-    color:navy;}
+    color:navy;
+    font-size: 34px;
+}
 
 a { text-decoration: none; }
 
@@ -130,12 +132,120 @@ section#the-cut-out-cat {
 
 /* Home Page - Landing Page */
 
-#about-page {
-    color: rgba(223,107,183,1);
-    text-align: center;
+
+h2 img {
     width: 100%;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: brandynicoleeastertwo;
+    font-size: 68px;
+    color: #79A30F !important;
+    height: 100px;
+}
+
+@media (max-width: 1000px) {
+    h3 {
+        font-size: 50px
+    }
+}
+
+@media (max-width: 800px) {
+    h3 {
+        font-size: 40px
+    }
+}
+
+@media (max-width: 400px) {
+    h3 {
+        font-size: 30px
+    }
+}
+
+h4 {
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+@media (max-width: 1000px) {
+    h4 {
+        font-size: 30px
+    }
+}
+
+@media (max-width: 800px) {
+    h4 {
+        font-size: 25px
+    }
+}
+
+@media (max-width: 400px) {
+    h4 {
+        font-size: 20px
+    }
+}
+
+#about-page p, h3, h4 {
+    color: rgba(223,107,183,1);
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 40px
+    bottom: 80px;
+}
+
+#about-page p {
+    font-size: 20px;
+    text-align: left;
+    background-color: #DDEFAD;
+    padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 1000px) {
+    #about-page p {
+        font-size: 18px
+    }
+}
+
+@media (max-width: 800px) {
+    #about-page p {
+        font-size: 16px
+    }
+}
+
+@media (max-width: 400px) {
+    #about-page p {
+        font-size: 14px
+    }
+}
+
+#about-page {
+    background:#A6E6D7;
+    height: 50%;
+    margin-top: 40px;
+}
+
+@media (max-width: 1000px) {
+    #about-page {
+        font-size: 16px
+    }
+}
+
+@media (max-width: 800px) {
+    #about-page {
+        font-size: 16px
+    }
+}
+
+@media (max-width: 400px) {
+    #about-page {
+        font-size: 14px
+    }
+}
 /* Collection Page Decorations*/
 
 #clothes-page {
