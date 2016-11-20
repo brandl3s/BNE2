@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgba(195,226,237,0.16);
+    background-color: rgb(239,180,196);
     font-family: BrandyNicoleEaster;
     align-content: center;
 }
@@ -20,18 +20,22 @@ p { text-align: center;
     font-size: 34px;
 }
 
-a { text-decoration: none; }
+a {
+    text-decoration: none;
+    color:rgb(255,0,0);
+}
 
 li {
     font-size: 40px;
     padding: 20px 10px 0px 10px;
     display: inline;
     text-align: center;
+    color:rgb(128,231,255);
 }
 
 
 h1 {
-    color: navy;
+    ;
     font-size: 58px;
     font-family: brandynicoleeastertwo;
     max-width: 750px;
@@ -50,34 +54,53 @@ img.constructionHeading {
     text-align: center;
 }
 
-.masonry { /* Masonry container */
-    column-count: 3;
+.masonry {
+    column-count: 4;
     column-gap: none;
-    column-width: 100%;
-    margin: none;
+    line-height: 0;
 }
 
-.item { /* Masonry bricks or child elements */
+.item {
     display: inline-block;
     max-height: none;
 }
 
-img.item {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.masonry-two { /* Masonry container */
-    column-count: 4;
+.masonry-two {
+    column-count: 5;
     column-gap: 0;
-
+    line-height: 0;
+    margin: auto;
 }
 
-.item-two { /* Masonry bricks or child elements */
-    background-color: #eee;
+.item-two {
     display: inline-block;
-    margin: 0 auto;
-    size: 100px;
+}
+
+#repair-images {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+#art-images {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  display: table;
+}
+
+.work-photo {
+  display: inline-block;
+  padding: none;
+}
+
+.masonry-three {
+    column-count: 5;
+    column-gap: 0;
+    line-height: 0;
+    max-width: 1600px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @media (max-width: 1200px) {
@@ -107,11 +130,6 @@ img.item {
   -webkit-column-count: 1;
   column-count:         1;
   }
-}
-
-.masonry-three { /* Masonry container */
-    column-count: 5;
-    column-gap: 2em;
 }
 
 section#the-cut-out-cat {
@@ -323,7 +341,7 @@ ul.collections {
 /*Nav*/
 
 #art a{
-    color: red;
+    color: rgb(101, 122, 37);
 }
 
 #art a:hover {
@@ -332,7 +350,7 @@ ul.collections {
 
 
 #clothes a{
-    color: rgba(170,65,214,0.99);
+    color: rgb(101, 122, 37);
 }
 
 #clothes a:hover {
@@ -353,7 +371,7 @@ ul.collections {
 }
 
 #repair a {
-    color: rgba(241,89,148,0.99);
+    color: rgb(101, 122, 37);
 }
 
 #repair a:hover {
@@ -361,7 +379,7 @@ ul.collections {
 }
 
 #learn a{
-    color: rgba(212,209,17,0.99);
+    color: rgb(101, 122, 37);
 }
 
 #learn a:hover {
@@ -370,7 +388,7 @@ ul.collections {
 
 
 #contact a{
-    color: rgba(40,189,147,0.99);
+    color: rgb(101, 122, 37);
 }
 
 #contact a:hover {
@@ -384,7 +402,6 @@ ul.collections {
 }
 
 .nav {
-    display: table;   /* Allow the centering to work */
     margin: 0 auto;
 }
 
