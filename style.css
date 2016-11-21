@@ -30,12 +30,10 @@ li {
     padding: 20px 10px 0px 10px;
     display: inline;
     text-align: center;
-    color:rgb(128,231,255);
 }
 
 
 h1 {
-    ;
     font-size: 58px;
     font-family: brandynicoleeastertwo;
     max-width: 750px;
@@ -212,7 +210,7 @@ h4 {
     text-align: center;
     width: 60%;
     margin-left: 20%;
-    padding-bottom: 40px
+    padding-bottom: 40px;
     bottom: 80px;
 }
 
@@ -340,59 +338,16 @@ ul.collections {
 
 /*Nav*/
 
-#art a{
+.menu-item a{
     color: rgb(101, 122, 37);
+    padding: 4px;
+    border-width: 4px;
+    border-color: pink;
+    border-style: solid;
 }
 
-#art a:hover {
-    color: rgb(255, 153, 0);
-}
-
-
-#clothes a{
-    color: rgb(101, 122, 37);
-}
-
-#clothes a:hover {
-    color: rgb(51, 204, 255);
-}
-
-
-#design a{
-    color: rgba(97,138,40,0.99);
-}
-
-#design a:hover {
-    color: pink;
-}
-
-#design a:hover {
-    color: rgb(230, 230, 0);
-}
-
-#repair a {
-    color: rgb(101, 122, 37);
-}
-
-#repair a:hover {
+.menu-item a:hover {
     color: rgb(204, 51, 255);
-}
-
-#learn a{
-    color: rgb(101, 122, 37);
-}
-
-#learn a:hover {
-    color: rgb(26, 26, 255);
-}
-
-
-#contact a{
-    color: rgb(101, 122, 37);
-}
-
-#contact a:hover {
-    color: rgb(255, 153, 204);
 }
 
 #menu-outer {
