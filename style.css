@@ -158,10 +158,18 @@ h2 {
 }
 
 h3 {
-    font-family: brandynicoleeastertwo;
-    font-size: 68px;
-    color: #79A30F !important;
-    height: 100px;
+  color: #79A30F !important;
+  font-family: brandynicoleeastertwo;
+  font-size: 68px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#save-everything {
+  background-color: rgb(146, 231, 255);
+  padding: 40px 0 40px 0;
 }
 
 @media (max-width: 1000px) {
@@ -209,9 +217,9 @@ h4 {
     color: rgba(223,107,183,1);
     text-align: center;
     width: 60%;
-    margin-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 40px;
-    bottom: 80px;
 }
 
 #about-page p {
@@ -354,6 +362,12 @@ ul.collections {
     padding-bottom: 20px;
     padding-top: 20px;
     min-height: 84px;
+}
+
+@media (max-width: 800px) {
+  .menu-item {
+      display: inline-flex;
+  }
 }
 
 .nav {
