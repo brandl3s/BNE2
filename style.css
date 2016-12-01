@@ -77,7 +77,29 @@ img.constructionHeading {
 #repair-images {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   width: 1000px;
+}
+
+#repair-images img {
+  margin: 1px;
+  border-style: solid;
+  border-color: pink;
+  border-width: 8px;
+}
+
+#repair-images-two {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 1000px;
+}
+
+#repair-images-two img {
+  margin: 1px;
+  border-style: solid;
+  border-color: pink;
+  border-width: 8px;
 }
 
 #art-images {
@@ -131,21 +153,35 @@ img.constructionHeading {
 }
 
 section#the-cut-out-cat {
-    align-content: center;
+  align-content: center;
 }
 /* Contact Page */
 
 .contact-details {
-  background-color: pink;
   color: #FF009B;
   font-size: 32px;
-  margin: 46px;
+  margin: 40px 20px 40px 20px;
   padding: 20px;
   text-decoration: none;
 }
 
+#contact-paragraph {
+  background-color: pink;
+  padding: 100px;
+}
+
+.contact-details:hover {
+  color: rgb(101, 122, 37);
+}
+
 #contact-page {
-    text-align: center;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .contact-details {
+      display: inline-flex;
+  }
 }
 
 /* Home Page - Landing Page */
@@ -317,18 +353,6 @@ ul.collections {
     font-family: BrandyNicoleEaster;
 }
 
-/*.over {
-    color: rgb(51, 204, 255) !important;
-}
-
-.pointer {
-   cursor: pointer;
-}
-
-#website-link a:hover {
-    color: rgb(51, 204, 255) !important;
-}*/
-
 /* Made By Me */
 
 #final-line {
@@ -348,7 +372,7 @@ ul.collections {
 
 .menu-item a{
     color: rgb(101, 122, 37);
-    padding: 4px;
+    padding: 8px;
     border-width: 4px;
     border-color: pink;
     border-style: solid;
