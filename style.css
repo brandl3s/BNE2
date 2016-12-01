@@ -42,16 +42,6 @@ h1 {
     margin: 0 auto;
 }
 
-img.constructionHeading {
-    width: 100%;
-}
-
-/* Temporary UC=Under Construction duh */
-
-#UC {
-    text-align: center;
-}
-
 .item {
     display: inline-block;
     max-height: none;
@@ -68,21 +58,6 @@ img.constructionHeading {
 .picture {
     display: inline-block;
 }
-
-/*#repair-images {
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 1600px;
-}
-
-#art-images {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1600px;
-  display: table;
-}*/
 
 .work-photo {
   display: inline-block;
