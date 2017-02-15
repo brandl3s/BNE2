@@ -301,7 +301,7 @@ ul.collections {
   padding-top: 100px;
 }
 
-#check-out-channel p {
+p#check-out-channel{
   color: #FF009B;
   font-size: 32px;
   margin: 40px 20px 5px 20px;
