@@ -294,6 +294,13 @@ ul.collections {
     font-family: BrandyNicoleEaster;
 }
 
+#lesson-contact {
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 100px;
+}
+
 /* Made By Me */
 
 #final-line {
