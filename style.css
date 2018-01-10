@@ -301,10 +301,11 @@ ul.collections {
   padding-top: 100px;
 }
 
-p.check-out-channel{
+p#check-out-channel{
   color: #FF009B;
   font-size: 32px;
-  margin: 40px 20px 5px 20px;
+  text-align: center;
+  margin: 0 auto;
   padding: 20px;
   text-decoration: none;
 }
